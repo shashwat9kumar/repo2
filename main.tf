@@ -1,9 +1,20 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = "#####"
-  secret_key = "#####"
+  access_key = "####"
+  secret_key = "####"
 }
 
+# variable "subnet_prefix" {
+#   description ="Cidr block"
+# }
+
+#  # 1 Create a VPC
+#  resource "aws_vpc" "prod-vpc" {
+#   cidr_block = var.subnet_prefix
+#    tags = {
+#      "Name" = "production"
+#   }
+#  }
 
 
 # # # 1 Create a VPC
